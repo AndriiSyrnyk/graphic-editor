@@ -1,4 +1,4 @@
-public class Circle extends TwoDimensionalShape {
+public class Circle implements TwoDimensionalShape {
     private String name;
     public Circle(String name) {
         this.name = name;

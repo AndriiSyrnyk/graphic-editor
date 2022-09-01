@@ -1,4 +1,4 @@
-public class Trapezoid extends TwoDimensionalShape {
+public class Trapezoid implements TwoDimensionalShape {
     private String name;
     public Trapezoid(String name) {
         this.name = name;

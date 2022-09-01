@@ -1,4 +1,4 @@
-public class Triangle extends TwoDimensionalShape{
+public class Triangle implements TwoDimensionalShape{
     private String name;
     public Triangle(String name) {
         this.name = name;

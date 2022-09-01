@@ -1,4 +1,4 @@
-public abstract class Shape {
-    public abstract String getName();
-    public abstract String drawShape();
+public interface Shape {
+    public String getName();
+    public String drawShape();
 }

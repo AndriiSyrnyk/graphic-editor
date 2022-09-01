@@ -1,4 +1,4 @@
-public class Parallelogram extends TwoDimensionalShape{
+public class Parallelogram implements TwoDimensionalShape{
     private String name;
     public Parallelogram(String name) {
         this.name = name;

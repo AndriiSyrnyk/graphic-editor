@@ -1,4 +1,4 @@
-public class Point extends Shape{
+public class Point implements Shape{
     private String name;
     public Point(String name) {
         this.name = name;

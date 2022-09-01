@@ -1,4 +1,4 @@
-public class Cuboid extends ThreeDimensionalShape{
+public class Cuboid implements ThreeDimensionalShape{
     private String name;
     public Cuboid(String name) {
         this.name = name;
