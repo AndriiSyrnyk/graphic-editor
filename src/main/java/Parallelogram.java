@@ -1,4 +1,4 @@
-public class Parallelogram implements TwoDimensionalShape{
+public class Parallelogram extends TwoDimensionalShape{
     private String name;
     public Parallelogram(String name) {
         this.name = name;
@@ -17,5 +17,10 @@ public class Parallelogram implements TwoDimensionalShape{
     @Override
     public void areaCalculation() {
         System.out.println("The area calculation of parallelogram is complete");
+    }
+
+    @Override
+    public String moveShape() {
+        return "The parallelogram moves";
     }
 }

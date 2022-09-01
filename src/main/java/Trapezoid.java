@@ -1,4 +1,4 @@
-public class Trapezoid implements TwoDimensionalShape {
+public class Trapezoid extends TwoDimensionalShape {
     private String name;
     public Trapezoid(String name) {
         this.name = name;
@@ -17,5 +17,10 @@ public class Trapezoid implements TwoDimensionalShape {
     @Override
     public void areaCalculation() {
         System.out.println("The area calculation of trapezoid is complete");
+    }
+
+    @Override
+    public String moveShape() {
+        return "The trapezoid moves";
     }
 }

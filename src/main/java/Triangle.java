@@ -1,4 +1,4 @@
-public class Triangle implements TwoDimensionalShape{
+public class Triangle extends TwoDimensionalShape{
     private String name;
     public Triangle(String name) {
         this.name = name;
@@ -17,5 +17,10 @@ public class Triangle implements TwoDimensionalShape{
     @Override
     public void areaCalculation() {
         System.out.println("The area calculation of triangle is complete");
+    }
+
+    @Override
+    public String moveShape() {
+        return "The triangle moves";
     }
 }

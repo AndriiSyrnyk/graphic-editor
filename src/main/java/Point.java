@@ -1,4 +1,4 @@
-public class Point implements Shape{
+public class Point extends Shape{
     private String name;
     public Point(String name) {
         this.name = name;
@@ -12,5 +12,10 @@ public class Point implements Shape{
     @Override
     public String drawShape() {
         return "The point is drawn";
+    }
+
+    @Override
+    public String moveShape() {
+        return "The point moves";
     }
 }

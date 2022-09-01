@@ -1,4 +1,4 @@
-public interface TwoDimensionalShape extends Shape{
+public abstract class TwoDimensionalShape extends Shape{
     public static final int DIMENSION = 2;
-    public void areaCalculation();
+    public abstract void areaCalculation();
 }
