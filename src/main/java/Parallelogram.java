@@ -20,7 +20,7 @@ public class Parallelogram extends TwoDimensionalShape{
     }
 
     @Override
-    public String moveShape() {
-        return "The parallelogram moves";
+    public String rotateShape() {
+        return "The parallelogram rotated";
     }
 }

@@ -21,7 +21,7 @@ public class Cuboid extends ThreeDimensionalShape{
 
 
     @Override
-    public String moveShape() {
-        return "The cuboid moves";
+    public String rotateShape() {
+        return "The cuboid rotated";
     }
 }

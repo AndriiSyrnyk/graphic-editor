@@ -20,7 +20,7 @@ public class Triangle extends TwoDimensionalShape{
     }
 
     @Override
-    public String moveShape() {
-        return "The triangle moves";
+    public String rotateShape() {
+        return "The triangle rotated";
     }
 }

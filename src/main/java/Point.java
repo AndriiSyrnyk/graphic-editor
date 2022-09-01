@@ -14,8 +14,4 @@ public class Point extends Shape{
         return "The point is drawn";
     }
 
-    @Override
-    public String moveShape() {
-        return "The point moves";
-    }
 }

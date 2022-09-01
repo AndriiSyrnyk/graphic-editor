@@ -20,7 +20,7 @@ public class Circle extends TwoDimensionalShape {
     }
 
     @Override
-    public String moveShape() {
-        return "The circle moves";
+    public String rotateShape() {
+        return "The circle rotated";
     }
 }

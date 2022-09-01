@@ -8,7 +8,6 @@ public class TestEditor {
                 new Cuboid("cuboid")};
         drawingTesting(shapes);
         shapeNamesPrintingTesting(shapes);
-        movementTesting(shapes);
 
         TwoDimensionalShape[] shapes2D = new TwoDimensionalShape[] {new Trapezoid("trapezoid"),
                 new Triangle("triangle"),
@@ -16,19 +15,20 @@ public class TestEditor {
                 new Parallelogram("parallelogram") };
 
         areaCalculationTesting(shapes2D);
+        rotationTesting(shapes2D);
 
         ThreeDimensionalShape cuboid = new Cuboid("cuboid");
 
         cuboid.volumeCalculation();
     }
 
-    private static void movementTesting(Shape[] shapes) {
+    private static void rotationTesting(TwoDimensionalShape[] shapes) {
         System.out.println("---------- ----------");
-        System.out.println("---MOVE ALL SHAPES---");
+        System.out.println("---ROTATE  SHAPES---");
         System.out.println("---------- ----------");
 
-        for (Shape shape: shapes) {
-            System.out.println(shape.moveShape());
+        for (TwoDimensionalShape shape: shapes) {
+            System.out.println(shape.rotateShape());
         }
 
         System.out.println();
@@ -36,7 +36,7 @@ public class TestEditor {
 
     public static void drawingTesting(Shape[] shapes) {
         System.out.println("---------- ----------");
-        System.out.println("---DRAW ALL SHAPES---");
+        System.out.println("----DRAWING SHAPES---");
         System.out.println("---------- ----------");
 
         for (Shape shape: shapes) {

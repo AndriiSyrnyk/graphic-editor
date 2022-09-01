@@ -20,7 +20,7 @@ public class Trapezoid extends TwoDimensionalShape {
     }
 
     @Override
-    public String moveShape() {
-        return "The trapezoid moves";
+    public String rotateShape() {
+        return "The trapezoid rotated";
     }
 }
